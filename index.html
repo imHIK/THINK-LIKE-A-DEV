@@ -1,3 +1,8 @@
+<!-- git status
+git add . 
+git commit -m "message"
+git push -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,54 +10,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- <style>
+        label,input{
+            margin: 10px 2px;
+        }
+    </style> -->
+    <link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Project</a></li>
-            <li><a href="/">Contect me</a></li>
-            <li><a href="/">About me</a></li>
+            <div style="border-left:none ;">
+                <li><a href="home">Home</a></li>
+            </div>
+            <div>
+                <li><a href="skill">Skill Set</a></li>
+
+            </div>
+            <div>
+                <li><a href="contact">Contect me</a></li>
+            </div>
+            <div style="border-right:none ;">
+                <li><a href="about">About me</a></li>
+            </div>
         </ul>
     </nav>
     <div>
-        <header>
-            <h1> Harshil I Kapasi</h1>
-            <p> cjksbjdsvhjsvdw gdwvd vnad d f df d f dsf dsf sf ds fds v z dfs df zxd</p>
+        <div id="home">
+            <h3> Harshil I Kapasi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consectetur amet esse alias! Voluptatem, architecto omnis illo voluptas dolorem repellendus et est ipsum doloremque officia ratione tenetur ad accusamus dignissimos aspernatur voluptate neque iste suscipit excepturi eaque quo rem! Voluptas.</p>
             <br><br>
-            <p> cjksbjdsvhjsvdw gdwvd vnad d f df d f dsf dsf sf gdwvd vnad d f df d f dsf dsf sf gdwvd vnad d f df d f dsf dsf sf gdwvd vnad d f df d f dsf dsf sf ds fds v z dfs df zxd</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores necessitatibus laborum laudantium dicta! Voluptate, tempora cumque! Perferendis pariatur voluptates repellat, autem sapiente, provident, quis perspiciatis sint distinctio totam unde! Blanditiis excepturi distinctio adipisci odio dolores cupiditate consequatur corrupti sunt accusamus ex laborum aut expedita quas veniam, sequi praesentium eligendi.</p>
 
-        </header>
+        </div>
     </div>
-    <div>
-        <h2> language</h2>
-        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, necessitatibus.</p>        
-    </div>    
-    <div>
-        <h2> Hobbies</h2>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, nulla hic consequuntur unde illo pariatur beatae natus in rerum placeat!</p>        
-    </div>    
-    <div>
-        <h2> Specialities</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab, impedit repudiandae eaque sapiente nesciunt assumenda deserunt architecto porro doloribus ratione est eius nulla? Temporibus facilis neque quisquam est pariatur.</p>        
-    </div>    
-    <div>
+    <div id="skill">
+        <div id="edu">
+            <div>
+                <h4>Languages</h4>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, necessitatibus.</p>        
+            </div>    
+            <div>
+                <h4> Hobbies</h4>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, nulla hic consequuntur unde illo pariatur beatae natus in rerum placeat!</p>        
+            </div>    
+        </div>
+
+        <div id="pro">
+            <div>
+                <h4> Projects</h4>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ab, impedit repudiandae eaque sapiente nesciunt assumenda deserunt architecto porro doloribus ratione est eius nulla? Temporibus facilis neque quisquam est pariatur.</p>        
+            </div>    
+    
+        </div>
+        <div id="skillbar">
+
+        </div>
+
+    </div>
+    <div id="contact">
         <form>
             <label>Name : </label>
-            <input type="text">
+            <input type="text"><br>
             <label>Email ID : </label>
-            <input type="email">
+            <input type="email"><br>
             <label>Contact No : </label>
-            <input type="number">
+            <input type="number"><br><br>
             <input type="submit">
             <input type="reset">
             
         </form>
     </div>
-    <div>
+    <div id="about">
         <h2> Lorem, ipsum dolor.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur voluptate, incidunt officiis debitis impedit quos!</p>
-        <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80">
+        <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" >
         
     </div>
 </body>

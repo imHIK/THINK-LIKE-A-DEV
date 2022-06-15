@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#home{
+
+}
+#contact{
+
+}
+#about{
+    border: 2px solid black;
+    padding: 100px;
+}
+#skill{
+
+}
+li{
+    list-style: none;
+}
+ul a{
+    padding: 130px;
+    
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+}
+ul div{
+    border-right: 2px solid black;
+    display: flex;
+    align-items: center;
+
+}
+h3{
+    text-align: center;
+    background-color: black;
+    color: aqua;
+}
+#home{
+    padding: 100px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+
+
+}
+#skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid white;
+}
